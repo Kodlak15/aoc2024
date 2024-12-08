@@ -1,0 +1,66 @@
+# Compiled files and build directories
+_build/
+_opam/
+zig-cache/
+build/
+dist/
+
+# Gleam specific
+*.beam
+*.ez
+
+# OCaml specific
+*.cmi
+*.cmo
+*.cmx
+*.o
+*.a
+*.cma
+*.cmxa
+*.cmxs
+.merlin
+*.annot
+
+# Zig specific
+zig-cache/
+zig-out/
+*.o
+*.obj
+*.out
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+node_modules/
+deps/
+.rebar3/
+
+# Compiled binaries
+*.exe
+*.out
+*.app
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Environment and local configuration
+.env
+.local
+
+# Language-specific debug and temp files
+*.dSYM/
+.direnv/
+
+# Advent of Code specific
+input.txt
+*.input
